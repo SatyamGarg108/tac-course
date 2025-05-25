@@ -23,6 +23,7 @@ resource "aws_instance" "lesson_07" {
 
 resource "aws_iam_user" "Terraform_user1" {
   name = var.IAM_user
+  
 }
 
 resource "aws_iam_user_policy_attachment" "admin_perms" {
